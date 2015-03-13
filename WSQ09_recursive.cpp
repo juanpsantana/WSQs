@@ -2,16 +2,13 @@
 #include <cstdlib>
 using namespace std;
 
-long long int Factorial_loop (long n){
+int factorial (int n){
 	if (n==0){
 		return 1;
 	}
-	if (n>0) {
-		long long int fact=1;
-		for (long i=2;i<=n;i++){
-			cout << fact << endl;
-			fact=fact*i;
-		}
+	else {
+		int fact;
+		fact = factorial(n-1)*n
 		return fact;
 	}
 }
