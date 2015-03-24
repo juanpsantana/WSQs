@@ -13,18 +13,19 @@ int gcd(int a, int b){
 			a=b;
 			b=temp;
 		}
-		rem = a%b;
-		if (rem == 0){
-			gcd = b;
-		}
+		
 		while (rem > 1){
-				rem = a%b;
-				a=b;
-				b=rem;
-				gcd=b;
+			rem = a%b;
+			if (rem == 0){
+				return b;
+			}
+			cout << a << ", " << b << ", " << rem << endl;
+			a = b;
+			b = rem;
+			gcd=b;
 		}
-		return gcd;
 	}
+	return gcd;
 }
 
 int main(){
