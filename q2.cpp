@@ -2,7 +2,7 @@
 #include <cstdlib>
 using namespace std;
 
-int triangles (int size){
+void triangles (int size){
 	for (int i=1; i<=size; i++){
 		for (int t=1; t<=i;t++){
 			cout << "T";
@@ -15,7 +15,6 @@ int triangles (int size){
 		}
 		cout << endl;
 	}
-	return 0;
 }
 
 int main()
