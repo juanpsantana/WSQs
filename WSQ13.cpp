@@ -10,7 +10,6 @@ float root(float number){
 		old = guess;
 		guess= (guess + (number/guess))/2.0;
 	}
-
 	return guess;
 }
 
