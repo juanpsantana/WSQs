@@ -19,7 +19,6 @@ int gcd(int a, int b){
 			if (rem == 0){
 				return b;
 			}
-			cout << a << ", " << b << ", " << rem << endl;
 			a = b;
 			b = rem;
 			gcd=b;
