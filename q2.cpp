@@ -2,14 +2,14 @@
 #include <cstdlib>
 using namespace std;
 
-void triangles (int size){
-	for (int i=1; i<=size; i++){
+void triangles (int sx){
+	for (int i=1; i<=sx; i++){
 		for (int t=1; t<=i;t++){
 			cout << "T";
 		}
 		cout << endl;
 	}
-	for (int i=(size-1); i>0; i--){
+	for (int i=(sx-1); i>0; i--){
 		for (int t=1; t<=i;t++){
 			cout << "T";
 		}

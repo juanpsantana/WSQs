@@ -42,5 +42,4 @@ int main(){
 	cin >> precision;
 	cout << endl << calculate_e(precision) << endl;
 	return 0;
-
 }
