@@ -16,6 +16,7 @@ bool isPalindrome(string x){
 	string y = swap(x);
 	for (int i=0;i<=x.length();i++){
 		if(x[i]!=y[i]){
+			return false; //Here is the change: from "return 0" to "return false"
 		}
 	}
 	return true;
@@ -32,4 +33,3 @@ int main (){
 	}		
 	return 0;
 }
-
