@@ -23,24 +23,6 @@ int check_banana (string name_file){
 					cout << "found next banana at " << index << endl;
 				}
 			}
-			/*
-			file>>line;
-			for (int i=0; i<line.length(); i++){
-				if(tolower(line[i],loc)=='b'){
-					if(tolower(line[i+1],loc)=='a'){
-						if(tolower(line[i+2],loc)=='n'){
-							if(tolower(line[i+3],loc)=='a'){
-								if(tolower(line[i+4],loc)=='n'){
-									if(tolower(line[i+5],loc)=='a'){
-										banana++;
-									}
-								}
-							}
-						}
-					}
-				}
-			}
-			*/
 		}
 	}
 	return banana;
